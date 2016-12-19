@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<SGs>
+  <SG SGID = "100">
+    <CMPerSG> 4 </CMPerSG>
+    <STBPerCM> 4 </STBPerCM>
+    <RateOfCCP> 100 </RateOfCCP> <!-- ms -->
+    <CVExAddr IP="10.90.242.211" Port="20000" />
+    <McastIP From="238.1.1.1" To="238.1.1.5" />
+  </SG>
+  <SG SGID = "101">
+    <CMPerSG> 10 </CMPerSG>
+    <STBPerCM> 2 </STBPerCM>
+    <RateOfCCP> 500 </RateOfCCP> <!-- ms -->
+    <CVExAddr IP="10.90.242.211" Port="20000" />
+    <McastIP From="238.1.1.1" To="238.1.1.5" />
+    <McastIP From="238.1.1.11" To="238.1.1.15" />
+    <McastIP From="238.1.1.111" To="238.1.1.115" />
+  </SG>
+</SGs>
+

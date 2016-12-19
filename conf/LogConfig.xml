@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LogLevel>
+	<!-- "CRITICAL" > "ERROR" > "WARNING" > "INFO" > "DEBUG" -->
+	<LogToConsole> DEBUG </LogToConsole>
+	<LogToFile> DEBUG </LogToFile>
+</LogLevel>
+
